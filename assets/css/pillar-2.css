@@ -9802,5 +9802,8 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   right: 25px;
   background-color: #3582C4;
   padding: 12px;
+}
+.downloadCV a
+{
   color: white;
 }
