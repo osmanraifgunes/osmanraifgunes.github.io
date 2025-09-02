@@ -1,0 +1,24 @@
+{
+  "name": "osmanraifgunes.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pdf": "node html-to-pdf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmanraifgunes/osmanraifgunes.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmanraifgunes/osmanraifgunes.github.io/issues"
+  },
+  "homepage": "https://github.com/osmanraifgunes/osmanraifgunes.github.io#readme",
+  "description": "",
+  "devDependencies": {
+    "puppeteer": "^24.18.0"
+  }
+}
