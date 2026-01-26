@@ -1,0 +1,50 @@
+1. What best describes your current role and total years of backend development experience?
+
+I am currently a Senior Full Stack Developer and Tech Lead at Poilabs, where I lead the development of location-based navigation and campaign platforms. In this role, I architect cloud-native REST APIs on Azure and design data-driven analytics dashboards, leveraging over 12 years of backend and full-stack experience to build high-performance, scalable systems.
+
+2. Which backend technologies do you feel most confident working with today?
+(Languages, frameworks, databases)
+
+I feel most confident working with C# (.NET Core) and Node.js (Express.js) as my primary backend frameworks, utilizing Entity Framework for efficient data orchestration. Regarding data management, I am highly proficient in T-SQL and PostgreSQL for relational database design, while also leveraging NoSQL. I specialize in integrating these within microservices and event-driven architectures to ensure optimal performance and scalability across cloud environments.
+
+3. Have you worked with event-driven systems or Kafka before?
+If yes, what problem was it solving, and what was your role?
+
+Yes, I have experience working with event-driven systems. I have architected and implemented high-scale data processing pipelines using Kafka and RabbitMQ to handle millions of data points across distributed environments.
+
+In my current role at Poilabs, I specifically designed and optimized indoor mapping and navigation systems that support 1 million monthly visitors. By leveraging Redis for high-speed caching and real-time data retrieval, I ensured the platform remained performant under heavy load. My background also includes building event-based processing pipelines at RobotQA to manage complex automated testing workflows, consistently focusing on performance and scalability.
+
+4. Describe a technical problem you worked on that you found genuinely challenging.
+What made it difficult, and how did you approach it?
+
+At RobotQA, the big headache was generating test scripts automatically. Usually, these things are super fragile because they rely on coordinates—one pixel moves and the whole test fails. So, I integrated object detection to give the system "eyes." Making the AI recognize UI elements like a human does, while keeping it fast enough for real-time work, was a massive challenge. But in the end, we cut down the testing time by 70%, which was huge.
+
+More recently at Poilabs, I hit a wall with scaling. We have like 1 million monthly visitors using our indoor maps, and doing all those route calculations on the server was just killing our performance. It was a total bottleneck. My solution was to move the route calculation to the client side. I basically redesigned the whole architecture so the user’s phone handles the heavy pathfinding logic. It took the pressure off our servers and made the navigation feel instant for the users, even if their internet was acting up.
+
+5. When you encounter a system or codebase you don’t fully understand, what do you usually do first?
+
+
+When I’m dropped into a codebase that looks like a total "black box,"  here’s my go-to process:
+
+    - I usually start with a quick chat with the team members. I don’t want to waste hours guessing something they can explain in five minutes. I’ll ask about the "why" behind the architecture, known pain points, or any weird workarounds I should be aware of.
+    - I look at the logs and traces to see how the system behaves.
+    - I like to get my hands dirty. I might fix a small typo, improve a variable name, or add a comment while I’m exploring. It ensures I can actually build and deploy the project successfully.
+    - If there’s no updated documentation, I’ll draw my own quick diagram of how the services or modules talk to each other.
+Basically, I combine the knowledge from the team with the code from the code and logs to get up to speed as fast as possible.
+
+6. Tell us about a time you improved something (code, tests, performance, DX) without being explicitly asked to.
+What motivated you?
+
+At Poilabs, I realized our core systems—Web Navigation, Mall Management, and Operation Management—were becoming a major liability. The code was so complex and unreadable that the panels were constantly unstable, and it was clear that we’d soon spend more time fixing bugs than shipping features. Without being asked, I took the initiative to rewrite all three applications from the ground up.
+
+I was motivated by a need for stability and a better developer experience, so I didn't just stop at the code; I implemented test case management with full documentation and set up GitHub hooks to automate commit management and changelog generation in our CI pipeline. It was a lot of work, but it transformed environment into a professional, automated workflow where the team could finally move fast without breaking things.
+
+7. This role is Istanbul-based with periodic work trips to NYC.
+Are you comfortable with this working model?
+
+Yes, I am comfortable.
+
+8. Please describe your English proficiency.
+Would you be comfortable discussing technical topics with an international team in English?
+
+I'd say my English is at a Professional Working Proficiency (C1) level. I’m completely comfortable discussing technical topics, architectural decisions, or complex system designs with an international team.
